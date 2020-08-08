@@ -65,7 +65,7 @@ print("Winner: " + str(winner))
 print("-------------------------")
  
 
-election_output = os.path.join("PyPoll", "Resources", "election_summary.txt")
+election_output = os.path.join("PyPoll", "Analysis", "election_summary.txt")
 
 with open(election_output, "w") as file:
     
